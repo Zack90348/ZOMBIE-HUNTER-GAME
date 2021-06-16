@@ -27,4 +27,8 @@ class Survivor{
         //bullet.debug = true;  
         bullet.lifetime = windowWidth / 3;
     }
+
+    addToGrp(){
+        survivorGrp.add(this.body);
+    }
 }

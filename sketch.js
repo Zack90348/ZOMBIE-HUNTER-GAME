@@ -19,11 +19,11 @@ function preload(){
     "images/zombieRun100.png");
 
     //Loading all the images
-    bgImage = loadImage("images/zombieBackground.png");
+    bgImage = loadImage("images/zombieBackground.PNG");
     survivorImg = loadImage("images/gunner0.png");
     bulletImg = loadImage("images/bulletImg0.png");
     lifeImage = loadImage("images/heartImg0.png");
-    gameOverImg = loadImage("images/gameoverImg.png");
+    gameOverImg = loadImage("images/gameoverImg.PNG");
 }
 
 function setup(){

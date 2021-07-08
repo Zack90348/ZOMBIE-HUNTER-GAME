@@ -1,16 +1,16 @@
 //Creating the lives
 function createLives(){
-    life1 = createSprite(width-300,(height/2)-400);
+    life1 = createSprite(width-300,(height/2)-420);
     life1.addImage(lifeImage);
     life1.scale = 0.2;
     life1.visible = false;
 
-    life2 = createSprite(width-360,(height/2)-400);
+    life2 = createSprite(width-360,(height/2)-420);
     life2.addImage(lifeImage);
     life2.scale = 0.2;
     life2.visible = false;
 
-    life3 = createSprite(width-420,(height/2)-400);
+    life3 = createSprite(width-420,(height/2)-420);
     life3.addImage(lifeImage);
     life3.scale = 0.2;
     life3.visible = false;
